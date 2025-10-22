@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BlinkPro — Optimiza tu Android</title>
+  <meta name="description" content="BlinkPro - Optimiza RAM, mejora conexión DNS y acelera juegos. Desarrollado por OshpaDev." />
+  <style>
+    :root{
+      --bg:#0f1720;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#0ea5ff;
+      --accent-2:#ff4d4d;
+      --glass: rgba(255,255,255,0.03);
+      --maxw:980px;
+      --radius:12px;
+      font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#e6eef6;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#081220 0%, #0b1522 100%);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:var(--maxw);margin:28px auto;padding:20px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:72px;height:72px;border-radius:14px;background:var(--glass);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .logo svg{width:56px;height:56px}
+    h1{font-size:20px;margin:0}
+    .by{color:var(--muted);font-size:13px;margin-top:6px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.015));padding:18px;border-radius:var(--radius);margin-top:18px;border:1px solid rgba(255,255,255,0.03)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:760px){.grid{grid-template-columns:1fr 320px}}
+    .cta{display:flex;gap:10px;align-items:center}
+    .pill{background:var(--accent);color:#04202b;padding:10px 12px;border-radius:10px;font-weight:600;text-decoration:none}
+    .meta{color:var(--muted);font-size:13px}
+    .section h2{margin:0 0 8px 0;font-size:16px}
+    .policy{white-space:pre-wrap;line-height:1.5;color:#dce8f7;font-size:14px}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    a.link{color:var(--accent);text-decoration:none}
+    .download-note{background:rgba(14,165,255,0.06);padding:10px;border-radius:10px;color:var(--accent);border:1px solid rgba(14,165,255,0.06);font-size:13px}
+    .small{font-size:12px;color:var(--muted)}
+    .contact{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <!-- Logo provisional SVG (puedes reemplazar por <img src="logo.png" />) -->
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BlinkPro logo">
+          <rect width="100" height="100" rx="14" fill="#071429"/>
+          <g transform="translate(14,14)" fill="none" stroke="#0ea5ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 40 Q26 10 56 10" opacity="0.18" />
+            <path d="M6 60 Q26 30 56 30" />
+          </g>
+          <circle cx="78" cy="22" r="8" fill="#ff4d4d" opacity="0.95"/>
+        </svg>
+      </div>
+      <div>
+        <h1>BlinkPro</h1>
+        <div class="by">Desarrollado por <strong>OshpaDev</strong></div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div>
+        <div class="card section">
+          <h2>Acerca de BlinkPro</h2>
+          <div class="meta">BlinkPro es una aplicación ligera y segura diseñada para optimizar el rendimiento de dispositivos Android. Mejora la gestión de memoria, reduce procesos no esenciales y ayuda a estabilizar la conexión con opciones de DNS. No requiere root.</div>
+
+          <div style="margin-top:12px" class="contact">
+            <div class="download-note">APK firmado y listo para distribución en plataformas externas.</div>
+            <div style="flex:1"></div>
+            <a class="pill" href="#" onclick="alert('Descarga disponible desde Uptodown/tu enlace de publicación');return false">Ver en Uptodown</a>
+          </div>
+
+          <hr style="border:none;height:12px" />
+
+          <h2>Características principales</h2>
+          <ul style="color:#dce8f7">
+            <li>Game Boost: optimiza recursos para juegos</li>
+            <li>DNS Booster: mejora la resolución y estabilidad de red</li>
+            <li>Servicios en segundo plano (configurable)</li>
+            <li>Interfaz moderna y controles rápidos</li>
+          </ul>
+        </div>
+
+        <div class="card section" style="margin-top:14px">
+          <h2>Política de Privacidad</h2>
+          <div class="policy">
+POLÍTICA DE PRIVACIDAD — BlinkPro
+Última actualización: 22 de octubre de 2025
+
+BlinkPro (“nosotros”, “nuestra aplicación” o “el servicio”) respeta la privacidad de sus usuarios y se compromete a proteger la información que usted nos proporciona. Esta Política de Privacidad explica cómo manejamos los datos dentro de la aplicación.
+
+1. Información que recopilamos
+BlinkPro no recopila información personal identificable (como nombre, dirección o correo electrónico).
+Sin embargo, pueden recopilarse datos no personales de forma automática, como:
+- Versión del sistema operativo y modelo del dispositivo
+- Rendimiento general del sistema (uso de CPU, memoria, etc.)
+- Información de errores o fallos (crash logs)
+- Datos de publicidad anónimos proporcionados por Google AdMob
+
+Estos datos se usan únicamente para mejorar la funcionalidad y el rendimiento de la aplicación.
+
+2. Publicidad
+BlinkPro utiliza Google AdMob para mostrar anuncios dentro de la aplicación.
+AdMob puede usar identificadores anónimos del dispositivo para personalizar anuncios y medir su rendimiento.
+Política de privacidad de Google: https://policies.google.com/privacy
+
+3. Permisos
+La aplicación puede solicitar ciertos permisos para funcionar correctamente:
+- INTERNET y ACCESS_NETWORK_STATE: conexión y control de red.
+- FOREGROUND_SERVICE: mantener servicios activos de optimización.
+- WAKE_LOCK: evitar suspensión del dispositivo durante tareas activas.
+
+Estos permisos se utilizan solo para las funciones técnicas del optimizador, sin acceso a información personal.
+
+4. Seguridad de los datos
+BlinkPro no almacena ni transmite datos personales.
+Los registros de diagnóstico son temporales y permanecen en el dispositivo.
+
+5. Enlaces a terceros
+La aplicación puede contener enlaces o integraciones con servicios de terceros (como Google Ads).
+Recomendamos revisar sus políticas de privacidad antes de utilizarlos.
+
+6. Cambios a esta política
+Podemos actualizar esta Política de Privacidad ocasionalmente.
+Cualquier cambio será publicado en esta misma sección o en la página de descarga de la aplicación.
+
+7. Contacto
+Si tienes preguntas o inquietudes sobre esta política, puedes escribirnos a:
+blinkpro.support@gmail.com
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h2>Detalles técnicos</h2>
+          <div class="meta">Package name: <strong>com.blinkpro.app</strong></div>
+          <div class="meta" style="margin-top:8px">Versión: <strong>1.0.0</strong></div>
+          <div class="meta" style="margin-top:8px">Compatibilidad: Android 8.0+ (minSdk 26)</div>
+
+          <hr style="border:none;height:10px" />
+
+          <h2>Contacto</h2>
+          <div class="meta">Correo: <a class="link" href="mailto:blinkoptimizer@gmail.com">blinkoptimizer@gmail.com</a></div>
+          <div class="meta" style="margin-top:8px">Desarrollador: <strong>OshpaDev</strong></div>
+
+          <hr style="border:none;height:10px" />
+
+          <h2>Política</h2>
+          <div class="small">Esta página contiene la política oficial de BlinkPro. Puedes enlazarla desde Uptodown como "Official Website".</div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © 2025 OshpaDev — BlinkPro. Todos los derechos reservados.
+    </footer>
+  </div>
+</body>
+</html>
